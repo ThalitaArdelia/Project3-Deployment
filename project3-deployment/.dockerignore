@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+.env
+.git
+tasks.db
+tasks.db-wal
+tasks.db-shm

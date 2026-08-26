@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Manager — Deployment Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card">
+    <header>
+      <h1>✅ Task Manager</h1>
+      <p class="subtitle">Aplikasi contoh untuk demo deployment &amp; hosting di cloud</p>
+    </header>
+
+    <form id="task-form" class="task-form">
+      <input type="text" id="task-input" placeholder="Tambah tugas baru..." maxlength="200" required />
+      <button type="submit" class="btn btn--primary">Tambah</button>
+    </form>
+
+    <ul id="task-list" class="task-list"></ul>
+
+    <footer class="meta">
+      <span id="env-badge" class="badge">memuat...</span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
